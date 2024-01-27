@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>România</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo"> <i class="fas fa-map-signs"></i> România </a>
+    <nav class="navbar">
+        <a href="#">
+            <span class="texto">Home</span>
+        </a>
+        <a href="PapaNoel.html">
+            <span class="texto">Papa Noel</span>
+        </a>
+
+        <a href="SanNicolas.html">
+            <span class="texto">San Nicolas</span>
+        </a>
+        <a href="Comida.html">
+            <span class="texto">Comida</span>
+        </a>
+        <a href="ListaDeElementos.html">
+            <span class="texto">Lista de elementos</span>
+        </a>
+        <a href="Contacto.html">
+            <span class="texto">Contacto</span>
+        </a>
+    </nav>
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </div>
+</header>
+<section >
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <div class="container right-panel-active">
+                <!--------------------X------------------------>
+                <span class="close">&times;</span>
+                <!--------------------Formulario------------------------>
+                <div class="container__form container--signup">
+                    <form action="#" class="form" id="form1">
+                        <h2 class="form__title">Sign Up</h2>
+                        <label>
+                            <input type="text" placeholder="User" class="input" />
+                        </label>
+                        <label>
+                            <input type="email" placeholder="Email" class="input" />
+                        </label>
+                        <label>
+                            <input type="password" placeholder="Password" class="input" />
+                        </label>
+                        <button class="btn">Sign Up</button>
+                    </form>
+                </div>
+
+                <!-- Sign In -->
+                <div class="container__form container--signin" >
+
+                    <form action="#" class="form" id="form2">
+                        <h2 class="form__title">Sign In</h2>
+                        <label>
+                            <input type="email" placeholder="Email" class="input" />
+                        </label>
+                        <label>
+                            <input type="password" placeholder="Password" class="input" />
+                        </label>
+                        <a href="#" class="link">Forgot your password?</a>
+                        <button class="btn">Sign In</button>
+                    </form>
+                </div>
+                <div class="container__overlay">
+                    <div class="overlay">
+
+                        <div class="overlay__panel overlay--left">
+                            <button class="btn" id="signIn">Sign In</button>
+                        </div>
+                        <div class="overlay__panel overlay--right">
+                            <button class="btn" id="signUp">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a id="clickModal" class="btn">Login</a>
+        </div>
+    </div>
+</section>
+<div class="slider-container">
+    <div class="slide active" style="background-image: url('imagenes/foto1(42).jpg')"></div>
+
+    <div class="slide" style="background-image: url('imagenes/foto1(49).jpg')"></div>
+
+    <div class="slide" style="background-image: url('imagenes/foto1 (51).jpg')"></div>
+
+    <div class="slide" style="background-image: url('imagenes/foto1 (50).jpg')"></div>
+
+    <div class="slide" style="background-image: url('imagenes/foto1(48).jpg')"></div>
+
+    <button class="arrow left-arrow" id="izquierda"><i class="fas fa-arrow-left"></i></button>
+    <button class="arrow right-arrow" id="derecha"><i class="fas fa-arrow-right"></i></button>
+</div>
+<footer class="footericons">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-github"></i></a>
+</footer>
+<script src="js/index.js"></script>
+</body>
+</html>

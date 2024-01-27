@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>România</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/Contacto.css">
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo"> <i class="fas fa-map-signs"></i> România </a>
+    <nav class="navbar">
+        <a href="index.html">
+            <span class="texto">Home</span>
+        </a>
+        <a href="PapaNoel.html">
+            <span class="texto">Papa Noel</span>
+        </a>
+
+        <a href="SanNicolas.html">
+            <span class="texto">San Nicolas</span>
+        </a>
+        <a href="Comida.html">
+            <span class="texto">Comida</span>
+        </a>
+        <a href="ListaDeElementos.html">
+            <span class="texto">Lista de elementos</span>
+        </a>
+        <a href="Contacto.html">
+            <span class="texto">Contacto</span>
+        </a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </div>
+
+
+</header>
+
+<section id="contenedor">
+    <h1>Formulario de contacto</h1>
+    <form>
+        <label>Nombre completo:</label>
+        <label>
+            <input type="text" placeholder="Tu nombre aquí" required>
+        </label>
+        <label>Correo electrónico:</label>
+        <label>
+            <input type="text" placeholder="ej: micorreo@correo.com" required>
+        </label>
+        <label>Dirección:</label>
+        <label>
+            <input type="text" placeholder="Tu dirección aquí">
+        </label>
+        <label>Teléfono:</label>
+        <label>
+            <input type="text" placeholder="ej: 31512345" required>
+        </label>
+
+        <p> Tipo de información:</p>
+        <label for="contacto"></label><select id="contacto" name="contacto">
+        <option value="medios">Consulta</option>
+        <option value="medios">Sugerencia</option>
+        <option value="medios">Queja</option>
+    </select>
+        <label>Sexo:</label>
+        <div id="genero">
+            <div class="genero">
+                <input type="radio" name="genero" checked="checked" id="masculino">
+                <label for="masculino">Masculino</label>
+            </div>
+            <div class="genero">
+                <input type="radio" name="genero" checked="checked" id="femenino">
+                <label for="femenino">Femenino</label>
+            </div>
+        </div>
+        <label>Comentario:</label>
+        <label for="mensaje"></label><textarea id="mensaje" placeholder="Tu mensaje aquí"></textarea>
+        <p>Esta de acuerdo con que guardemos sus datos:</p>
+        <div id="informacion">
+            <div>
+                <input type="checkbox" id="boletin">
+                <label for="boletin">Si</label>
+            </div>
+        </div>
+
+
+        <div style="text-align: center;">
+            <input type="submit" value="Enviar" id="enviar">
+        </div>
+    </form>
+    <footer class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2841984.962263932!2d22.777488951624605!3d45.92378556716859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff26958976c3%3A0x84ef4f92a804b194!2zUnVtYW7DrWE!5e0!3m2!1ses!2ses!4v1645382960004!5m2!1ses!2ses" width="1009" height="280" style="border:solid 1px black;" allowfullscreen="" loading="lazy" ></iframe>
+    </footer>
+</section>
+<aside id="redessociales">
+    <a class="smedia facebook" href="">Uno</a>
+    <a class="smedia twitter" href="">Dos</a>
+    <a class="smedia instagram" href="#">Tres</a>
+    <a class="smedia youtube" href="#">Cuatro</a>
+
+</aside>
+<script src="js/Contacto.js"></script>
+</body>
+</html>
